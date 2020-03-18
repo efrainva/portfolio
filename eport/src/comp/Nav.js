@@ -9,11 +9,13 @@ const Nav = (props) => {
 
 
     return(
-      <div>
+      <div className='navb'>
         <NavLink exact activeClassName='selected' className='a-nav' to='/'> Home </NavLink>
-        <NavLink activeClassName='selected' className='a-nav' to='/skill'> Skills</NavLink>
-        <NavLink activeClassName='selected' className='a-nav' to='/work'> Work </NavLink>
-        <a href ='efrainva@gmail.com'> contact</a>
+        <NavLink activeClassName='selected' className='a-nav' to='/TL'> TL</NavLink>
+        <NavLink activeClassName='selected' className='a-nav' to='/work'> Projects </NavLink>
+        {/* <NavLink activeClassName='selected' className='a-nav' to='/hobbies'> Hobbies</NavLink> */}
+        <a className='a-nav' href="mailto:efrainva@gmail.com"> Contact </a> 
+
       </div>
     )
   

@@ -1,7 +1,13 @@
 html {
   text-align: center;
-  background-color: rgb(50,50,60);
-  height: 100vh;
+  background-color: rgb(243,248,255);
+  height: auto;
+  border: 15px solid white;
+}
+html { height: 120%; } 
+
+body{
+  margin: 0px;
 }
 
 .App-logo {
