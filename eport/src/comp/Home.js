@@ -30,11 +30,11 @@ function Home (props){
       <div className='s2'>
           <ul>
           <h1 className='Skill'>Skills</h1>
-          <li>Postgresql</li>
+          <li>React</li>
           <li>Java</li>
           <li>Python </li>
+          <li>Postgresql</li>
           <li>Javascript </li>
-          <li>React</li>
           <li>Redux </li>
           <li>HTML</li>
           <li>CSS</li>

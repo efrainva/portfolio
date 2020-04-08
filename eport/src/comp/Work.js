@@ -42,7 +42,7 @@ const Work = ()=>{
         <img className='found' src={BE} alt='no'/>
       </a>
       <div className='cardwordsR'> 
-        <h3>Restautant Passport</h3>
+        <h3>Restaurant Passport</h3>
         <p>Find local Restautants based on the city they entered </p>
       </div>
     </div>
