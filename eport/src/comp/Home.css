@@ -45,7 +45,8 @@ img{
   box-shadow: 5px 30px 25px 0px rgba(130, 205, 165, 0.4);
   background-image: linear-gradient(rgb(150, 230, 130), rgb(130, 205, 165));
 }
-.image{
+.image{ color:aliceblue;
+  
   padding: 20px 0px;
   margin: 20px auto;
   width: 316px;

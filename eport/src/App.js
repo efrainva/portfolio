@@ -7,20 +7,20 @@ import TL from './comp/TL'
 import Work from './comp/Work'
 import Hobby from './comp/Hobbies'
 
-import {Switch,Route} from 'react-router-dom'
+import {Routes,Route} from 'react-router-dom'
 
 
 function App() {
   return (
     <div className="App">
-      <Nav/>
-      <Switch>
+      {/* <Nav/> */}
+      <Routes>
         <Route exact path='/' component={Home} />
         <Route path='/TL' component={TL} />
         <Route path='/work' component={Work} />
         <Route path='/hobbies' component={Hobby} />
-      </Switch>
-
+      </Routes>
+      <Home/>
     </div>
   );
 }

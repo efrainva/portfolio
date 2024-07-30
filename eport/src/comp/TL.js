@@ -1,8 +1,8 @@
 import React from 'react'
 
 import './Home.css'
-import M from './miracle.png'
-import F from './founder.png'
+// import M from './miracle.png'
+// import F from './founder.png'
 const TL = () => {
 
   return(<>
@@ -16,9 +16,9 @@ const TL = () => {
       </div>
 
       <div className='projectcardL'> 
-        <a className='image1'href='https://miracle-message.netlify.com/' target='_blank' >
-          <img className='mir' src={M} alt='no'/>
-        </a>
+        {/* <a className='image1'href='https://miracle-message.netlify.com/' target='_blank' > */}
+          {/* <img className='mir' src={M} alt='no'/> */}
+        {/* </a> */}
         <div className='cardwordsL'>
 
         <h3>Miracle Messages</h3>
@@ -27,9 +27,9 @@ const TL = () => {
       </div>
       
       <div className='projectcardR'> 
-        <a className='image1'href='https://www.foundergrants.com/.com' target='_blank' >
-         <img className='found' src={F} alt='no'/>
-        </a>
+        {/* <a className='image1'href='https://www.foundergrants.com/.com' target='_blank' > */}
+         {/* <img className='found' src={F} alt='no'/> */}
+        {/* </a> */}
         <div className='cardwordsR'> 
         <h3>Founder Grants</h3>
         <p>Founder Grants is a community driven database that is not yet released to the public. </p>

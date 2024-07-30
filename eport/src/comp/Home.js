@@ -1,9 +1,9 @@
 import React from 'react'
 
-import p from './restaurant.png'
-import T from './Team Builder.png'
+// import p from './restaurant.png'
+// import T from './Team Builder.png'
 import './Home.css'
-import {NavLink} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 function Home (props){
 
@@ -12,20 +12,34 @@ function Home (props){
     <h1 className='h1name'>Efrain Vazquez</h1>
     <div className='homeD'>
       <div className='s1'>
-        <NavLink to='/work'>
+        {/* <Link to='/work'> */}
 
       <h1 className='Skill'>Projects</h1>
+      
+
+      <h1 className='skill'>current project</h1>
+      <a className='image'href='https://github.com/efrainva/apartmentFE' target='_blank'> 
+            <h2>
+              github link to apartmentFE
+            </h2>
+             </a> 
+          {/* <div className='image'> 
+           
+          </div> */}
+          <h1>previous projects</h1>
           <div className='image'> 
-          {/* <a className='image1'href='https://restaurants-nearby.netlify.com/home' target='_blank' alt='no'> */}
-          <img src={p} alt='no'/>
-          {/* </a> */}
+           <a className='image'href='https://github.com/team-builder-build-weeks/Team-Builder-FE' target='_blank'> 
+            <h2>
+              github link to team builder
+            </h2>
+             </a> 
+              _
+            <h2><a className='image'href='https://github.com/Build-Week-Restaurant-Passport/Back-End' target='_blank' alt='no'>
+              github to restaurant back endmade in springboot
+            </a> </h2>
           </div>
-          <div className='image'> 
-          {/* <a className='image1'href='https://team-builder.netlify.com' target='_blank'> */}
-          <img src={T} alt='no'/>
-      {/* </a> */}
-          </div>
-        </NavLink>
+          
+        {/* </Link> */}
       </div>
       <div className='s2'>
           <ul>

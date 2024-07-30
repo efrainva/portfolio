@@ -1,7 +1,7 @@
 import React from 'react';
 
-import BE from './model:controller.png'
-import T from './Team Builder.png'
+// import BE from './model:controller.png'
+// import T from './Team Builder.png'
 
 
 const Work = ()=>{
@@ -27,9 +27,9 @@ const Work = ()=>{
     </div>
 
     <div className='projectcardL'> 
-      <a className='image1' href=''> 
-          <img src={T} alt='no' className='mir'/>
-      </a>
+      {/* <a className='image1' href=''> 
+          <img src={T} alt='no' className='mir'/> */}
+      {/* </a> */}
       <div className='cardwordsL'>
 
         <h3>Team Builder</h3>
@@ -38,9 +38,9 @@ const Work = ()=>{
     </div>
 
     <div className='projectcardR'>
-      <a className='image1'href='https://restaurants-nearby.netlify.com/home' target='_blank' >
-        <img className='found' src={BE} alt='no'/>
-      </a>
+      {/* <a className='image1'href='https://restaurants-nearby.netlify.com/home' target='_blank' > */}
+        {/* <img className='found' src={BE} alt='no'/>
+      </a> */}
       <div className='cardwordsR'> 
         <h3>Restaurant Passport</h3>
         <p>Find local Restautants based on the city they entered </p>
